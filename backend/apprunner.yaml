@@ -5,7 +5,7 @@ build:
     build:
       - echo "Installing Python dependencies for KAI-Fusion backend"
       - pip3 install --upgrade pip
-      - pip3 install -r requirements-prod.txt
+      - pip3 install -r requirements-minimal.txt
 run:
   runtime-version: 3.11.7
   command: python start.py
