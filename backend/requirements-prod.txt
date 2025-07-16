@@ -43,8 +43,8 @@ alembic>=1.13.0
 tavily-python>=0.3.0
 wikipedia>=1.4.0
 
-# Vector Database (Required by AI features)
-chromadb>=0.4.0
+# Vector Database (Required by AI features) - Temporarily disabled for faster deployment
+# chromadb>=0.4.0
 
 # Document Processing (Required by application)
 pypdf>=3.17.0
