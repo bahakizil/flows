@@ -1,7 +1,21 @@
-# Minimal requirements for fast deployment
+# Essential requirements for basic FastAPI startup
 fastapi>=0.104.1
 uvicorn[standard]>=0.24.0
+
+# Configuration Management
 python-dotenv>=1.0.0
 pydantic>=2.5.0
-sqlmodel>=0.0.14
+pydantic-settings>=2.1.0
+
+# Database Essentials
+sqlalchemy[asyncio]>=2.0.23
 asyncpg>=0.29.0
+
+# Security & Authentication
+python-jose>=3.3.0
+passlib==1.7.4
+bcrypt==3.1.7
+cryptography>=41.0.0
+
+# Core LangChain (for node system)
+langchain-core>=0.2.0
